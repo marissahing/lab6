@@ -57,11 +57,10 @@ function randomizeColors(e) {
 
 function makeColors(result) {
 	var colors = ["#69D2E7", "#A7DBD8", "#E0E4CC", "#F38630", "#FA6900"];
-	var random = Math.floor((Math.random() * 5) + 0);
 
 	$('body').css('background-color', colors[1]);
-	$('.thumbnail').css('background-color', colors[random]);
+	$('.thumbnail').css('background-color', colors[2]);
 	$('h1, h2, h3, h4, h5, h5').css('color', colors[3]);
-	$('p').css('color', colors[2]);
+	$('p').css('color', colors[4]);
 	$('.project img').css('opacity', .75);
 }
