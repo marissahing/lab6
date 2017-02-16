@@ -52,7 +52,7 @@ function addProject(result) {
 function randomizeColors(e) {
 	console.log("User clicked on color button");
 
-	$.get("http://marissahinglab6.herokuapp.com/palette", makeColors);
+	$.get("http://localhost:3000/palette", makeColors);
 }
 
 function makeColors(result) {
